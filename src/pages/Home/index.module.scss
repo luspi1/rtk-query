@@ -1,0 +1,12 @@
+.homePage {
+  padding: 40px 0;
+}
+
+.recipeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
